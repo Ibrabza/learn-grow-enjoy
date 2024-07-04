@@ -1,0 +1,17 @@
+.container{
+    color: white;
+    /* border: 1px solid white; */
+    height: max-content;
+}
+.title{
+    color: #86c232;
+    font-size: 25px;
+    margin-bottom: 1%;
+    text-shadow: 0 1px 3px #86c232;
+    padding: 1%;
+    border-bottom: 1px solid #86c232;
+}
+.courseList a{
+    color: white;
+    text-decoration: none;
+}

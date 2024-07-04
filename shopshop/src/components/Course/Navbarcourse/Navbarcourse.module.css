@@ -1,0 +1,15 @@
+.container{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    gap: 10px;
+}
+.container a{
+    color: green;
+    text-decoration: none;
+}
+.container a:hover{
+    color: whitesmoke;
+    transition-duration: 0.3s;
+}

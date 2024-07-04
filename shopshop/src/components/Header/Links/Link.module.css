@@ -1,0 +1,17 @@
+.container a{
+    color: #86c232;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: calc(100%/3);
+}
+.container a:hover{
+    color: whitesmoke;
+    /* text-decoration: underlin; */
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+.container:focus{
+    border-bottom: 1px solid #86c232;
+}

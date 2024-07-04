@@ -1,0 +1,43 @@
+.container{
+    width: 1200px;
+    display: flex;
+    gap: 20px;
+}
+.info_image img{
+    width: 300px;
+    object-fit: cover;
+}
+.infoside{
+    padding: 1%;
+}
+.title{
+    color: whitesmoke;
+    font-size: 26px;
+    font-weight: bold;
+}
+.infoblock{
+    padding: 1%;
+}
+.infoblock_assigned{
+    color: whitesmoke;
+    font-size: 15px;
+}
+.infoblock_numLessons{
+    color: whitesmoke;
+    font-size: 15px;
+}
+.infoblock_description{
+    margin-top: 2%;
+    padding: 2%;
+}
+.description_title{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.description_itself{
+    color: rgb(142, 142, 142);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
