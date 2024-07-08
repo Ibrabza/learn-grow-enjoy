@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+
+.quiz_title{
+    color: whitesmokel;
+    text-align: center;
+}

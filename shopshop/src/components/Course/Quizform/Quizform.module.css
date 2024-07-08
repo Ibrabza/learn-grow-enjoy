@@ -1,0 +1,9 @@
+.problem{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    height: 400px;
+    color: white;
+}
+.problem_input label{
+    color: white;
+}

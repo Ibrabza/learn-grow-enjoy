@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    "n c";
+}
+.lesson_navbar{
+    grid-area: n;
+}
+.lesson{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.video{
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.video iframe{
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.quiz_block{
+    padding: 1%;
+    color: white;
+}
+.quiz_title{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
